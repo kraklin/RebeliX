@@ -11,10 +11,10 @@
 /*================ Slic3r nastaveni ==========================*/
 
 // Vyska vrstvy pro tisknuti dilu [mm]
-layer_height = 0.3;
+layer_height = 0.2;
 
 // Sirka vytlacovaneho materialu [mm]
-extrusion_width = 0.66; //Slic3r->Print Settings->Advanced->Default extrusion width
+extrusion_width = 0.45; //Slic3r->Print Settings->Advanced->Default extrusion width
 
 /*==================== M6 sroub ==============================*/
 
@@ -74,9 +74,9 @@ motor_length = 34;
 /*================ Remeny a remenicky ========================*/
 
 // GT2 
-belt_tooth_distance = 2;
-belt_tooth_ratio = 0.5;
+//belt_tooth_distance = 2;
+//belt_tooth_ratio = 0.5;
 
 // T2.5
-//belt_tooth_distance = 2.5;
-//belt_tooth_ratio = 0.68;
+belt_tooth_distance = 2.5;
+belt_tooth_ratio = 0.68;
